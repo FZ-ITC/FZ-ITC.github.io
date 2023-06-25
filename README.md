@@ -8,7 +8,7 @@
 
 ![makes-people-smile](https://forthebadge.com/images/badges/makes-people-smile.svg) ![made-with-crayons](https://forthebadge.com/images/badges/made-with-crayons.svg)
 
-<img src="profile/img/logo.svg" width="500px" alt="社旗">
+<img src="github.com/FZ-ITC/.github/blob/master/profile/img/logo.svg" width="500px" alt="社旗">
 
 <!-- ![社旗](profile/img/logo.svg) -->
 
