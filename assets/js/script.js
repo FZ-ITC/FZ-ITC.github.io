@@ -118,6 +118,17 @@ for (let i = 0; i < formInputs.length; i++) {
     });
 }
 
+// when form on submit, generate a mailto link and open it in new tab
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    let mailtoLink = `${document
+        .getElementById("contact-mailto-link")
+        .getAttribute("href")}?subject=${formInputs[0].value}&body=${
+        formInputs[1].value
+    }`;
+    window.open(mailtoLink);
+});
+
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
