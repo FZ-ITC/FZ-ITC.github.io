@@ -532,6 +532,10 @@ main {
     line-height: 1.6;
 }
 
+.about-text .title {
+    margin-bottom: 10px;
+}
+
 .about-text p {
     margin-bottom: 15px;
 }
